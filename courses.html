@@ -3,121 +3,34 @@
 
 <head>
     <title>Courses</title>
-    <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-            position: relative;
-        }
-
-        html,
-        body {
-            height: 100vh;
-            width: 100vw;
-
-        }
-
-        .main-container-grid {
-            display: grid;
-            grid-template-rows: 1fr 13fr 1fr;
-            grid-row-gap: 1em;
-        }
-
-        .logo-name {
-            line-height: 50px;
-            margin-left: 10px;
-        }
-
-        .left-nav {}
-
-        .left-nav>li>a {
-            display: block;
-            padding: 15px;
-        }
-
-        .left-nav>li {
-            border: 1px solid #f1f1f1;
-        }
-
-        .r1 {
-            background-color: #ccc;
-        }
-
-        .r2 {
-            background-color: #f1f1f1;
-        }
-
-        .r3 {
-            background-color: #ccc;
-        }
-
-        .r1,
-        .r2,
-        .r3 {
-            display: grid;
-            grid-template-columns: 1fr 5fr 2fr;
-            grid-column-gap: 1em;
-        }
-
-        .r2c1,
-        .r2c3 {
-            background-color: #ccc;
-        }
-
-        .td {
-            padding: 10px;
-        }
-
-        .course-table {
-            table-layout: fixed;
-            width: 100%;
-        }
-
-        .course-table > thead > tr {
-            height: 50px;
-            text-align: center;
-        }
-
-        .course-table > tbody > tr {
-            height: 28px
-        }
-
-        .course-table > tbody > tr > td {
-            border: 1px solid #a6A6E9;
-        }
-
-        .course-table>thead>tr>td {
-            border: 1px solid #AAA;
-            font-weight: bold;
-            font-size: 18px;
-            background-color: #a5b4a5;
-        }
-
-        .copyright-text {
-            align-self: center;
-            justify-self: center;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/courses.css">
 </head>
 
 <body class="main-container-grid">
     <h3>Courses</h3>
-    <div class="r1">
+    <div class="r1 box-shadow">
         <h2 class="logo-name">Kai Young</h2>
+        <div>
+            
+        </div>
+        <div>
+            
+        </div>
     </div>
-    <div class="r2">
+    <div class="r2 box-shadow">
         <div class="r2c1">
             <ul class="left-nav">
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./courses.html">Courses</a></li>
                 <li><a href="#">Link 3</a></li>
                 <li><a href="#">Link 4</a></li>
                 <li><a href="#">Link 5</a></li>
                 <li><a href="#">Link 6</a></li>
-                <li><a href="#">Link 7</a></li>
+                <li><a href="./login.html">Login</a></li>
             </ul>
         </div>
         <div class="r2c2">
+            <h2>My Courses</h2>
             <table class="course-table">
                 <thead>
                     <tr>
@@ -156,7 +69,12 @@
             </table>
         </div>
         <div class="r2c3">
-            <h2>Right Navigation</h2>
+            <h2 class="sub-heading">Right Navigation</h2>
+            <p>Some content here</p>
+            <p>Some content here</p>
+            <p>Some content here</p>
+            <p>Some content here</p>
+            <p>Some content here</p>
             <p>Some content here</p>
         </div>
     </div>
